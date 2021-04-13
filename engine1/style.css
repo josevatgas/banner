@@ -8,7 +8,7 @@
 	zoom: 1; 
 	position: relative;
 	width: 100%;
-	max-width: 960px;
+	max-width: 100%;
 	max-height:360px;
 	margin:0px auto 0px;
 	z-index:90;
@@ -52,7 +52,7 @@
 	top:0;
 	height:100%;
 	max-height:360px;
-	max-width: 960px;
+	max-width: 100%;
 	vertical-align: top;
 	border:none;
 	overflow: hidden;
@@ -307,13 +307,13 @@
 	font-weight: normal;
 	text-transform:none;
 }#wowslider-container1 .ws_images > ul{
-	animation: wsBasic 12s infinite;
-	-moz-animation: wsBasic 12s infinite;
-	-webkit-animation: wsBasic 12s infinite;
+	animation: wsBasic 17.7s infinite;
+	-moz-animation: wsBasic 17.7s infinite;
+	-webkit-animation: wsBasic 17.7s infinite;
 }
-@keyframes wsBasic{0%{left:-0%} 16.67%{left:-0%} 33.33%{left:-100%} 50%{left:-100%} 66.67%{left:-200%} 83.33%{left:-200%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 16.67%{left:-0%} 33.33%{left:-100%} 50%{left:-100%} 66.67%{left:-200%} 83.33%{left:-200%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 16.67%{left:-0%} 33.33%{left:-100%} 50%{left:-100%} 66.67%{left:-200%} 83.33%{left:-200%} }
+@keyframes wsBasic{0%{left:-0%} 29.38%{left:-0%} 33.33%{left:-100%} 62.71%{left:-100%} 66.67%{left:-200%} 96.05%{left:-200%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 29.38%{left:-0%} 33.33%{left:-100%} 62.71%{left:-100%} 66.67%{left:-200%} 96.05%{left:-200%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 29.38%{left:-0%} 33.33%{left:-100%} 62.71%{left:-100%} 66.67%{left:-200%} 96.05%{left:-200%} }
 
 #wowslider-container1 .ws_bullets  a img{
 	text-indent:0;
